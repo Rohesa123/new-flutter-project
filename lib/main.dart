@@ -25,7 +25,19 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurpleAccent,
+        title: const Text(
+          'Online Course',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        actions: <Widget>[
+          Icon(Icons.account_circle),
+          Icon(Icons.group),
+        ],
+      ),
     );
   }
 }
