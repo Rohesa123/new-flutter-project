@@ -33,7 +33,7 @@ class Home extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        actions: <Widget>[
+        actions: const <Widget>[
           Icon(Icons.account_circle),
           Icon(Icons.group),
         ],
@@ -51,12 +51,12 @@ class Halaman extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.fromLTRB(20, 20, 0, 20),
-      padding: EdgeInsets.all(20),
+      margin: const EdgeInsets.fromLTRB(20, 20, 0, 20),
+      padding: const EdgeInsets.all(20),
       color: Colors.indigo,
-      child: Icon(
+      child: const Icon(
         Icons.headset,
-        color: const Color.fromARGB(255, 172, 168, 168),
+        color: Color.fromARGB(255, 172, 168, 168),
         size: 100.0,
       ),
     );
