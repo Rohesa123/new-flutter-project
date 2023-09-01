@@ -38,6 +38,16 @@ class Home extends StatelessWidget {
           Icon(Icons.group),
         ],
       ),
+      body: Container(
+        margin: EdgeInsets.fromLTRB(20, 20, 0, 20),
+        padding: EdgeInsets.all(20),
+        color: Colors.indigo,
+        child: Icon(
+          Icons.headset,
+          color: Colors.white,
+          size: 100.0,
+        ),
+      ),
     );
   }
 }
