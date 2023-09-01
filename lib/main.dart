@@ -38,7 +38,21 @@ class Home extends StatelessWidget {
           Icon(Icons.group),
         ],
       ),
-      body: Halaman(),
+      body: Container(
+        height: 500,
+        color: Colors.indigo,
+        child: const Column(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            Text("Ini", style: TextStyle(fontSize: 30)),
+            Text("Ini Adalah", style: TextStyle(fontSize: 30)),
+            Text("Ini Adalah Column", style: TextStyle(fontSize: 30)),
+            Text("Ini Adalah Column Flutter", style: TextStyle(fontSize: 30)),
+          ],
+        ),
+      ),
     );
   }
 }
